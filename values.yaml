@@ -1,0 +1,11 @@
+# values.yaml
+image: redis:latest  # Default app image version
+masterPort: 8081 
+slavePort: 9091 
+resources:
+  requests:
+    cpu: "500m"
+    memory: "500Mi"
+  limits:
+    cpu: "1"
+    memory: "1Gi"

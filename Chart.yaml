@@ -1,0 +1,12 @@
+# Chart.yaml
+name: my-app  # Replace with your desired app name
+version: 0.1.0
+appVersion: "latest"  # Use v2 for Helm 3 and later versions
+apiVersion: v2
+description: A basic Helm chart for my application
+maintainers:
+  - name: Arindam Dey
+    email: arindam.dey@dunnhumby.com # Replace with your information
+sources:
+  - https://helm.sh/docs/intro/charts/
+
